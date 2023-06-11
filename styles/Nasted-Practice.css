@@ -1,0 +1,23 @@
+nav > ul {
+  display: flex;
+}
+nav li a {
+  text-decoration: none;
+  list-style: none;
+}
+nav li {
+  list-style: none;
+  padding: 10px;
+}
+nav li:hover {
+  background-color: blue;
+}
+nav li .show {
+  display: none;
+  position: absolute;
+  padding-left: 0;
+  background-color: antiquewhite;
+}
+nav li:hover > .show {
+  display: block;
+}

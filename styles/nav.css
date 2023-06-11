@@ -1,0 +1,23 @@
+nav >ul{
+    display:flex;
+}
+nav li{
+    list-style:none;
+    margin-right:7px;
+    padding:0 10px;
+}
+nav li:hover{
+    background-color: red;;
+}
+nav li a{
+    text-decoration:none;
+    color:black;
+    display:block;
+}
+nav li .contact{
+    display:none;
+   
+}
+nav li:hover .ir{
+ display:block;
+}

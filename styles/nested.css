@@ -1,0 +1,20 @@
+ul {
+  display: flex;
+  list-style: none;
+}
+nav li {
+  padding-right: 5px;
+}
+a {
+  text-decoration: none;
+}
+.table ul {
+  display: none;
+  position: absolute;
+  /* left: -9999; */
+}
+.table:hover ul {
+  display: block;
+  left: 0;
+  position: unset;
+}
